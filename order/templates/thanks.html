@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block title %}
+      thanks -Himalaya
+
+{% endblock %}
+{% block content %}
+<div>
+<div class="text-center">
+  <br>
+  <br>
+  <br<br><br><br><br>
+  <br><br><br><br>
+  <h1 class="text-center my_title">
+    thanks for placing your order
+    </h1>
+    <br>
+    <p> Your order number is :<b>{{ customer_order.id}}
+</b></p>
+<br>
+<p>
+  We have received your order and will begin processing right away .For your records an email Configuration has been sent to you.
+  It contains details of the items you purchased
+  </p>
+  </div>
+  </div>
+  <br>
+  <br>
+  {% endblock %}
